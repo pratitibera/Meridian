@@ -357,6 +357,9 @@
             background-position: center;
             height: 146px;
         }
+        .top-nav{
+            padding: 0;
+        }
         .banner-icon{
             padding: 5px!important;
         }
