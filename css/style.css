@@ -343,9 +343,23 @@
         /* margin-right: -23px; */
         margin-left: -26px;
     }
+
+    .wi-100{
+        width: 100%;
+    }
        
 /*-------------------------RESPONSIVE SETTING START HERE-------------------------------*/
     @media only screen and (max-width: 479px){
+        .bg-banner {
+            background: url('../images/meridian-web-banner-1\ 1.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 146px;
+        }
+        .banner-icon{
+            padding: 5px!important;
+        }
         .text-0 {
             font-size: 20px;
         }
