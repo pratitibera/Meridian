@@ -355,13 +355,24 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            height: 146px;
+            height: 140px;
         }
         .top-nav{
-            padding: 0;
+            padding: 0!important;
         }
         .banner-icon{
             padding: 5px!important;
+        }
+        .banner-icon a .fab {
+            color: white;
+            font-size: 10px;
+            padding: 5px 0;
+        }
+        .icon-bg-color .fas {
+            color: white;
+            font-size: 35px;
+            margin-top: 20px;
+            margin-left: 0px;
         }
         .text-0 {
             font-size: 20px;
